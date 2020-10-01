@@ -4,7 +4,7 @@ bodyParser              = require('body-parser'),
 response                = require('./restapi'),
 app                     = express(),
 PORT                    = process.env.PORT || 5000,
-baseUrl                 = '/',
+baseUrl                 = '/'
 
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true}))
