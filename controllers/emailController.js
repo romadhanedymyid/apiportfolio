@@ -34,7 +34,7 @@ module.exports = {
 
             botTelegram.sendMessage(
                 chat_id = config.TOKEN_TELEGRAM_BOT_CHATID,
-                text = "romadhanedy.my.id\n------------------------------------------------------------------\n#NewMessage\n------------------------------------------------------------------\n\nFrom : [" + body.params.bodyName + "]\nMessage :\n" + body.params.bodyMessage + "\n\n------------------------------------------------------------------"
+                text = "romadhanedy.my.id\n-------------------------------------------------------------------------------\n#NewMessage\n-------------------------------------------------------------------------------\n\nFrom :\n[" + body.recipient + "]\n" + body.params.bodyName + "\n\nMessage :\n" + body.params.bodyMessage + "\n\n-------------------------------------------------------------------------------"
             )
 
             // send mail
