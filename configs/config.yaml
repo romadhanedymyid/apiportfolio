@@ -1,3 +1,5 @@
+TOKEN_TELEGRAM_BOT: 1373349118:AAFJi9teqoVonJKSgx0XnjRZqqoqpCklTXk
+TOKEN_TELEGRAM_BOT_CHATID: 867382131
 TEMPLATE_EMAIL: https://raw.githubusercontent.com/romadhanedymyid/databasejson/master/templateEmail
 SMTP:
   host: smtp.gmail.com
