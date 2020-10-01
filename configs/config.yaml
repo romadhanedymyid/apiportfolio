@@ -1,0 +1,6 @@
+TEMPLATE_EMAIL: https://raw.githubusercontent.com/romadhanedymyid/databasejson/master/templateEmail
+SMTP:
+  host: smtp.gmail.com
+  port: 465
+  username: romadhanedy.my.id@gmail.com
+  password: zxc;pro2
