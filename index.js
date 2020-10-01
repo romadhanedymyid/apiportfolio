@@ -3,7 +3,8 @@ cors                    = require('cors'),
 bodyParser              = require('body-parser'),
 response                = require('./restapi'),
 app                     = express(),
-baseUrl                 = '/'
+PORT                    = process.env.PORT || 5000,
+baseUrl                 = '/',
 
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true}))
@@ -16,4 +17,4 @@ app.use('/', (req, res) => {
     return response.notFound([], res)
 })
 
-app.listen(4000, () => console.log('Server is running'))
+app.listen(PORT, () => console.log('Server is running'))
